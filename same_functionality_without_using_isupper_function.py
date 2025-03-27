@@ -7,3 +7,8 @@ for i in input_string:
     if not ('A' <= i <= 'Z'):
         all_upper = False  #found a non-uppercase character
         break  #break the code
+#condition to print the result
+if all_upper: 
+    print(input_string)
+else:
+    print(input_string)
