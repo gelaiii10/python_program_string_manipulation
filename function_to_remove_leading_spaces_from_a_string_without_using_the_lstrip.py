@@ -5,3 +5,6 @@ def custom_lstrip(input_string):
         index += 1
     #return the substring starting from the first non-space character
     return input_string[index:]
+#anme the function with a string
+result = custom_lstrip("   Baclea-an, Gelai")
+print(result)  #print the result
