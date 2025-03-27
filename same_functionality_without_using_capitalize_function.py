@@ -9,3 +9,5 @@ else:
     rest_of_string = input_string[1:].lower()  #convert the rest to lowercase
 
     result = first_char + rest_of_string #integrate the results
+
+print(result) #print the result  
