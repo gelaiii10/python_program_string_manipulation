@@ -12,3 +12,7 @@ else:
 
     #add the centered string
     result = ' ' * left_spaces + input_string + ' ' * right_spaces
+#print the result
+print(input_string)
+print(result)
+print(f"length of the result: {len(result)}")
