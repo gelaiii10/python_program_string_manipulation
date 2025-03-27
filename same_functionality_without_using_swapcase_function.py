@@ -12,3 +12,6 @@ for i in input_string:
         result += chr(ord(i) - 32)
     else:
         result += i
+#print the output result
+print(input_string)
+print(result)
