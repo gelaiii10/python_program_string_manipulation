@@ -9,3 +9,6 @@ for i in input_string:
     else:
         #if it's not an uppercase letter keep it as is
         result += i
+#print the result
+print(input_string)
+print(result)
