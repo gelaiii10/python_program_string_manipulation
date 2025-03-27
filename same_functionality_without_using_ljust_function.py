@@ -10,3 +10,7 @@ if spaces_needed <= 0:
 else:
     #add spaces to the end of the string
     result = input_string + ' ' * spaces_needed
+#print the output result
+print(input_string)
+print(result)
+print({len(result)})     
