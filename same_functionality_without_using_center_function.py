@@ -9,3 +9,6 @@ else:
     #calculate the number of spaces to add on each side
     left_spaces = spaces_needed // 2
     right_spaces = spaces_needed - left_spaces  #ensure total spaces are correct
+
+    #add the centered string
+    result = ' ' * left_spaces + input_string + ' ' * right_spaces
