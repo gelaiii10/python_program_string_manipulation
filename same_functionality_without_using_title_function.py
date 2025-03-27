@@ -11,3 +11,6 @@ for i in input_string:
         capitalize_next = False  #reset the flag
     else:
         result += i.lower()  #make the character lowercase
+#print the result
+print(input_string)
+print(result)        
