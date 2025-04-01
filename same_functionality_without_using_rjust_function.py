@@ -9,3 +9,6 @@ if spaces_needed <= 0:
 else:
     #create a string of spaces and connect it with the original string
     result = ' ' * spaces_needed + string
+#print the output
+print(string)
+print(result)
