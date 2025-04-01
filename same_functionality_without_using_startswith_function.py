@@ -1,6 +1,6 @@
 #input string and prefix
-string = "hello world"
-prefix = "hello"
+string = "HELLO WORLD"
+prefix = "HELLO"
 #check if the prefix is longer than the string
 if len(prefix) > len(string):
     result = False
@@ -11,3 +11,8 @@ else:
         if string[i] != prefix[i]:
             result = False
             break
+#print the output
+if result:
+    print(f"the string '{string}' starts with {prefix}")
+else:
+    print(f"the string '{string}' does not start with {prefix}")
