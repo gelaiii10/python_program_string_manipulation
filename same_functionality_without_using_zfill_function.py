@@ -9,3 +9,6 @@ if zeros_needed <= 0:
 else:
     #create a string of zeros and connect it with the original string
     result = '0' * zeros_needed + string
+#print the output
+print(string)
+print(result)    
