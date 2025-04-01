@@ -10,3 +10,9 @@ for i in range(len(string) - substring_length + 1):
     if string[i:i + substring_length] == substring:
         index = i
         break  #exit the loop once the first occurrence is found
+
+#print the output
+if index != -1:
+    print(f'the substring "{substring}" is found at index {index}')
+else:
+    print(f'the substring "{substring}" is not found in the string')   
