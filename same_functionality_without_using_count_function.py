@@ -9,3 +9,5 @@ for i in range(len(string) - substring_length + 1):
     #check if the substring matches the part of the string
     if string[i:i + substring_length] == substring:
         count += 1
+#print the output
+print(f'the substring "{substring}" appears {count} times in the string')
