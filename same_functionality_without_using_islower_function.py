@@ -8,3 +8,8 @@ for i in string:
     if not ('a' <= i <= 'z'):
         all_lower = False
         break #break the code
+#print the output
+if all_lower:
+    print(string)
+else:
+    print(string)    
